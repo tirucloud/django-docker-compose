@@ -22,7 +22,7 @@ Bring services down:
 `docker-compose down` <br>
 
 Open a bash session in a running container:
-`docker exec -it <container ID> /bin/bash` <br>
+`docker exec -it <container ID> /bin/sh` <br>
 
 
 # Flow <br>
