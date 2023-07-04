@@ -33,7 +33,7 @@ Open a bash session in a running container:
 
 3. The static files will be collected in *STATIC_ROOT*. This is the */static* directory in the container. <br>
 
-4. This directory is mounted to a Docker volume on the local machine. <br>
+4. This directory is mounted to a Docker volume <br>
 
 5. The next container that will be spin is Nginx. The Dockerfile for this container is in the */nginx* folder. The Nginx configuration will interact with the Gunicorn service at port 8000 and it will also serve the static files in */static* also mounted to the same volume. <br>
 
