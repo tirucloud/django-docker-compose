@@ -40,4 +40,5 @@ Open a bash session in a running container:
 
 # Endpoints <br>
 
-* You will be able to reach the Django project at 0.0.0.0:80. This is the Nginx endpoint that interacts with Gunicorn at 0.0.0.0:8000 <br>
+* You will be able to reach the Django project at <pulic-ip-of-instance>:80. This is the Nginx endpoint that interacts with Gunicorn at <pulic-ip-of-instance>:8000. <br>
+Admin page <pulic-ip-of-instance>:8000/admin
