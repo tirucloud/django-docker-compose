@@ -1,5 +1,6 @@
 # Run Django with Docker Compose<br>
 # Usage<br>
+# Launch ubuntu Ec2 instance
 `sudo apt update` <br>
 `sudo apt install docker.io docker-compose -y` <br>
 `sudo usermod -aG docker ubuntu` <br>
