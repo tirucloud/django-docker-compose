@@ -1,15 +1,15 @@
 # Run Django with Docker Compose<br>
 # Usage<br>
-sudo apt update
-sudo apt install docker.io docker-compose -y
-sudo usermod -aG docker ubuntu
-sudo systemctl start docker
-sudo systemctl enable docker
-sudo docker --version
-docker-compose -v
-git clone https://github.com/tirucloud/django-docker-compose.git
-ls
-cd django-docker-compose
+`sudo apt update` <br>
+`sudo apt install docker.io docker-compose -y` <br>
+`sudo usermod -aG docker ubuntu` <br>
+`sudo systemctl start docker` <br>
+`sudo systemctl enable docker` <br>
+`sudo docker --version` <br>
+`docker-compose -v`<br>
+`git clone https://github.com/tirucloud/django-docker-compose.git` <br>
+`ls` <br>
+`cd django-docker-compose` <br>
 
 Run services in the background:
 `docker-compose up -d` <br>
